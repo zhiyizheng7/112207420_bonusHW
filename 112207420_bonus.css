@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group, .textarea-group, .picture {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Flexbox for input2 and input3 to keep them separated */
+.input-row {
+    display: flex;
+    justify-content: space-between; /* 讓元素完全分開 */
+    gap: 20px; /* 設定間距 */
+}
+
+.input-column {
+    width: 48%; /* 每個欄位約占一半寬度 */
+}
+
+textarea {
+    height: 80px;
+    resize: none; /* 防止 textarea 調整大小 */
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 5px;
+}
